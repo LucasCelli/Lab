@@ -1,0 +1,14 @@
+/* 
+:is permite que você escreva seletores compostos de forma mais curta,
+tornando o código mais limpo e fácil de manusear.
+*/
+
+article > h1, article > h2, article > h3{
+    /* ... */
+}
+
+/***************************************/
+
+article > :is(h1, h2, h3){
+    /* ... */
+}
