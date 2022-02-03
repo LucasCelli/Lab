@@ -1,0 +1,6 @@
+p{
+    background-image: linear-gradient(to right, #bc4e9c, #f80759);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
